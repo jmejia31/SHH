@@ -2,14 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\inventario\CategoriaController;
+use App\Http\Controllers\NotasAudios\NotasAudiosController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-
-
 Route::resource("/categorias", CategoriaController::class);
+
 
 //CitasMedicas
 
@@ -20,6 +20,7 @@ Route::resource("/categorias", CategoriaController::class);
 //Inventarios
 
 //NotasAudios
+Route::resource("/Audios", NotasAudiosController::class);
 
 //Personas
 

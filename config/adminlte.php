@@ -273,8 +273,8 @@ return [
             'icon'        => 'fas fa-cubes',
         ],
         [
-            'text'        => 'Categorias',
-            'url'         => 'categorias',
+            'text'        => 'Notas de Audios',
+            'url'         => 'Audios',
             'icon'        => 'fas fa-cubes',
         ],
         [
